@@ -1,3 +1,9 @@
+
+int multiply(int x, int y)
+{
+    return x * y;
+}
+
 int main()
 {
     printf("1:+, 2:-, 3:*, 4:/, 숫자를 선택해주세요 :\n");
