@@ -10,6 +10,9 @@ int minus(int x, int y) {
 int multiply(int x, int y) {
     return x * y;
 }
+int divide(float x, float y) {
+    return x / y;
+}
 
 int main()
 {
@@ -43,6 +46,10 @@ int main()
         printf("결과: %d \n", multiply(x, y));
         break;
     case 4:
+        if (y == 0)
+        {
+            printf("0으로 나눌 수 없습니다.\n")
+        }
         printf("결과: %f \n", divide(x, y));
         break;
     }
