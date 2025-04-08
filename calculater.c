@@ -48,7 +48,7 @@ int main()
     case 4:
         if (y == 0)
         {
-            printf("0으로 나눌 수 없습니다.\n")
+            printf("0으로 나눌 수 없습니다.\n");
         }
         printf("결과: %f \n", divide(x, y));
         break;
